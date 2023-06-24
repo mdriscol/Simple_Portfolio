@@ -1,0 +1,370 @@
+.logo {
+    width: 300px;
+
+}
+
+ body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Special Elite', cursive;
+    
+    background-color: #F7F5F4; 
+ 
+} 
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    background-color: #c8102e;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0 0 0;
+    padding: 10px 20px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+  
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-color: #F7F5F4;
+    text-align: center;
+
+
+
+}
+.codeimage {
+    width: 600px;
+    height: 300px;
+}
+    
+
+
+
+.avatar {
+    
+    display: flex;
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-bottom: 80px;
+    width: auto;
+    height: 300px;
+   
+    
+        
+            
+
+}
+h2 {
+    font-size: 45px;
+    display: block;
+    text-align: center;
+   
+}
+
+
+.about-me {
+
+  /* border-top: 4mm ridge #F7F5F4;  */
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  border-radius: 0 0 70% 70%; 
+  background-color: #0080C1;
+}
+.nav-link {
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  font-size: 2.5em; /* Increase the font size on hover */
+}
+
+.about-me-text {
+    width: 600px;
+    height: 300px;
+    background-color: #0080C1;  
+    text-align: center;
+    font-size: 20px;
+    padding-left: 200px;
+    text-indent: 50px;
+    line-height: 1.5;
+   
+    
+   
+
+    
+}
+
+
+.skills {
+
+     width: 100%;
+     background-color: #F7F5F4;
+     height: 300px;
+     text-align: center;
+     font-size: 20px;
+     text-indent: 50px;
+     line-height: 1.5;
+   
+}
+.moodle-logo {
+    width: 20px;
+    height: auto;
+}
+.contact {
+    width: 100%;
+    
+     background-color:#F7F5F4; 
+    text-align: center;
+}
+    
+
+.footer {
+    
+      text-align: center;
+        background-color: #F7F5F4;
+    }
+
+
+.wave-container {
+  width: 100%;
+  height:   100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+svg {
+  width: 100%;
+  height: 10%;
+}
+.skill {
+    width: 100%;
+    background-color: #F7F5F4;
+    text-align: center;
+    height: 100px;
+    margin-top: 0px;
+}
+.social {
+    width: 100%;
+    background-color: #F7F5F4;
+    text-align: center;
+    height: 100px;
+    margin-top: -100px;
+}
+
+svg#fish {
+  top: 5em;
+}
+/* Fish Animation */
+svg.fish{
+  overflow:hidden;
+}
+
+@-webkit-keyframes swim
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+ @keyframes swim
+{
+	0% {margin-left: -235px;}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+} 
+
+
+
+
+
+.fish{
+	width: 235px;
+	height: 104px;
+	margin-left: -235px;
+	position: absolute;	
+	animation: swim 30s;
+	-webkit-animation: swim 20s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+svg #fish1,
+svg #fish2,
+svg #fish3,
+svg #fish4,
+svg #fish5,
+svg #fish6 {
+fill:#5080C1;
+  
+    -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+svg #fish2{
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+
+svg #fish3{
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+
+svg #fish4{
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+
+svg #fish5{
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+
+svg #fish6{
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+
+/**/
+@-moz-keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  70% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100%{
+    -moz-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 50%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+ /* .projects {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+}   */
+
+/* .project {
+  margin-top: 20px;
+} */
+.projects {
+  font-size:large;
+  text-decoration: center;
+}
+.projects-link {
+  transition: all 0.5s ease;
+}
+
+.projects-link:hover  {
+  color: white; /* Change the text color on hover */
+}
+.skill-link {
+  transition: all 0.5s ease;
+}
+.skill-link:hover {
+  color: white; /* Change the text color on hover */
+}
+.contact-link {
+  transition: all 0.5s ease;
+}
+.contact-link:hover {
+  color: white; /* Change the text color on hover */
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Adjust the margin as needed */
+  width: 100%; /* Use a fixed width or max-width if necessary */
+  height: auto;
+}
+.instrucAI {
+  max-width: 80%; /* Adjust the max-width as needed */
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
